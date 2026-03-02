@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Chelsea Quiz</title>
+   </head> 
+   <body>
+    <header>
+        <img src="images/img1.png">
+        <h1 id="title">Chelsea Quiz</h1>
+    </header>
+
+    <form action="action_page.php" method="GET" target="_blank">
+      <p>What Year was Chelsea Founded?</p>
+       <!---First Question Radio Buttons-->
+       <input type="radio" id="answ1" name="answchoice" value="answ1">
+       <label for="answ1">2020</label>
+
+       <input type="radio" id="answ2" name="answchoice" value="answ2">
+       <label for="answ2">1778</label>
+
+       <input type="radio" id="answ3" name="answchoice" value="answ3">
+       <label for="answ3">1 BC</label>
+
+       <input type="radio" id="answ4" name="answchoice" value="answ4">
+       <label for="answ4">1905</label>
+
+       <!---Second Question-->
+
+       <p>How many Champions Leagues has Chelsea won</p>
+       <!---Second Question Radio Buttons-->
+       <input type="radio" id="answ1" name="answchoice1" value="answ1">
+       <label for="answ1">1</label>
+
+       <input type="radio" id="answ2" name="answchoice1" value="answ2">
+       <label for="answ2">2</label>
+
+       <input type="radio" id="answ3" name="answchoice1" value="answ3">
+       <label for="answ3">30</label>
+
+       <input type="radio" id="answ4" name="answchoice1" value="answ4">
+       <label for="answ4">5</label><br>
+
+       <!---Third Question (open response)-->
+       <label for="question1">Why was Roman Abramovich forced to sell Chelsea F.C in 2022?</label><br>
+       <textarea name="question1" id="question1" rows="10" cols="10"></textarea> <br>
+
+
+       <!---Fourth Question (open response)-->
+       <label for="question2">What major club tournament did Chelsea F.C last win?</label><br>
+       <textarea name="question2" id="question2" rows="10" cols="10"></textarea> <br>
+
+
+       <!---Fifth Question Checkboxes-->
+       <p>What are Chelsea's primary team colors?</p>
+       <fieldset>
+            <input type="checkbox" id="red" name="red" value="red">
+            <label for="red">Red</label><br> 
+
+             <input type="checkbox" id="blue" name="blue" value="blue">
+             <label for="blue">Blue</label><br>
+
+            <input type="checkbox" id="white" name="white" value="white">
+            <label for="white">white</label> <br>
+
+            <input type="checkbox" id="green" name="green" value="green">
+            <label for="green">Green</label> <br>
+        </fieldset>
+        
+        <!---Sixth Question Checkboxes-->
+       <p>Pick current Chelsea Players:</p>
+       <fieldset>
+            <input type="checkbox" id="Zlatan" name="Zlatan" value="Zlatan">
+            <label for="Zlatan">Zlatan</label><br> 
+
+             <input type="checkbox" id="Rob Sanches" name="Rob Sanches" value="Rob Sanches">
+             <label for="Rob Sanches">Rob Sanches</label><br>
+
+            <input type="checkbox" id="Marc Cucurella" name="Marc Cucurella" value="Marc Cucurella">
+            <label for="Marc Cucurella">Marc Cucurella</label> <br>
+
+            <input type="checkbox" id="Moi Caicedo" name="Moi Caicedo" value="Moi Caicedo">
+            <label for="Moi Caicedo">Moi Caicedo</label> <br>
+
+       </fieldset> <br>
+
+       <input type="submit" value="Click to Submit">
+    </form>
+   </body>
+</html>

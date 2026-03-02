@@ -1,0 +1,27 @@
+label{
+    display:inline-block;
+    margin-bottom:5px;
+    margin-top:5px;
+}
+
+img{
+    width:20%;
+    height:20%;
+    margin:10px;
+}
+
+#title{
+    display:inline;
+    font-size:40px;
+}
+
+header{
+    background-color: blue;
+    padding-bottom:20px;
+    border-bottom: 10px solid black;
+
+}
+
+body{
+    background-color: whitesmoke;
+}
