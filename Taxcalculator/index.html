@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            //define our function that will calculate tax and total amounts after user inputs purchase amount
+            function calculateTax()
+            {
+                var purchaseAmnt = parseFloat(document.getElementById("purchase").value);
+                var tax = .0825;
+                var taxAmnt = tax * purchaseAmnt;
+                var total = purchaseAmnt + taxAmnt ;
+
+                //making it round the amounts to 2 decimal places
+                taxAmnt = taxAmnt.toFixed(2);
+                total = total.toFixed(2);
+            //output values to user
+            document.getElementById("taxAmnt").value = taxAmnt;
+            document.getElementById("total").value = total;
+            }
+
+
+        </script>
+        
+    </head>
+    <body>
+        <h2>Tax Calculator</h2>
+        <form>
+            <!---Make labels to show the purchase, tax, and total amounts-->
+            <label for="purchase">Purchase Amount:</label> <br>
+            <input type="text" id="purchase" name="purchase" value=""> <br> <br>
+
+            <label for="taxAmnt">Tax Amount:</label> <br>
+            <input type="text" id="taxAmnt" name="taxAmnt" value="" disabled> <br> <br>
+            
+            <label for="total">Total Amount:</label> <br>
+            <input type="text" id="total" name="total" value="" disabled> <br> <br>
+
+            <input type="button" value= "Click Here to Calculate" onclick="calculateTax()">
+        </form>
+    </body>
+</html>
