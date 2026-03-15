@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>ExamLs</h1>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="code.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <hr>
+        <form>
+            <h2>Question 1: How many Premier Leagues does Chelsea have?</h2>
+            <div class="question-box">
+                <label id="q1a"><input type="radio" name="q1" value="3">A] 3</label> <br>
+                <label id="q1b"><input type="radio" name="q1" value="2">B] 2</label> <br>
+                <label id="q1c"><input type="radio" name="q1" value="6">C] 6</label> <br>
+                <label id="q1d"><input type="radio" name="q1" value="10">D] 10</label> <br>
+                <p id="q1result"></p>
+            </div>
+
+            <h2>Question 2: Which are current Chelsea players?</h2>
+
+            <div class="question-box">
+                <label id="cucurella"><input type="checkbox" id="c1" >Cucurella</label> <br>
+                <label id="henry"><input type="checkbox" id="c2" >Thiery Henry</label> <br>
+                <label id="hazard"><input type="checkbox" id="c3" >Hazard</label> <br>
+                <label id="rob"><input type="checkbox" id="c4" >Rob Sanchez</label> <br>
+
+                <p id="q2result"></p>
+
+            </div>
+
+            
+        </form>
+        <button onclick="submitExam()">Submit Exam</button>
+        <h3>Total Points: <span id="score">0</span></h3>
+    </body>
+</html>
