@@ -1,0 +1,44 @@
+.banner{
+    background-color: purple;
+    color: white;
+    background-image: url(images/texture1.jpg);
+    text-shadow: 2px 2px 4px #000000;
+    margin:0px;
+}
+
+#demo{
+    text-align:center;
+}
+
+body{
+    background-color:darkolivegreen;
+    background-image: url(images/texture2.jpg);
+}
+
+.carousel-caption{
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.col img{
+    width: 200px;
+    height: 200px;
+}
+
+.col{
+    margin: 10px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+
+table, th, td{
+    color:white;
+
+}
+
+h3{
+    color:white;
+}
