@@ -1,0 +1,148 @@
+
+body{
+    background-image: url(images/asfalt-light.png);
+    background-color: #333;
+}
+.navbar {
+    display: flex;      /* makes items go left to right */
+    background-color: #333;
+    padding: 50px;
+    margin: 0;
+    list-style: none;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+.navbar li a:hover {
+    background-color: #555;
+}
+
+
+.stripe {
+    background-image: url(images/asfalt-dark.png);
+    position: fixed;
+    top: 0px;
+    right: 80px;          
+    width: 80px;      /* stripe thickness */
+    height: 100vh;    /* full screen height */
+    background-color: #db9334;
+    z-index: -1;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;   /* vertically aligns logo and button */
+    gap: 175px;             /* space between them */
+    padding: 20px;
+}
+
+.logo{
+    width: 250px;
+    height:auto;
+}
+
+.image1{
+    width:600px;
+    float: right;
+}
+
+
+.image3{
+    padding-top: 100px;
+    width:542px;
+    float: left;
+}
+
+.jumbotron{
+    background-image: url(images/asfalt-dark.png);
+    padding: 40px;
+}
+
+
+
+.quote-btn {
+  background-color: #2563eb;
+  color: white;
+  width:300px;
+  height:170px;
+
+  border: none;
+  padding: 40px 50px;
+
+  font-size: 30px;
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  transition: 0.9s;
+}
+
+.image4{
+    width:200px;
+    float: left;
+}
+
+.subheading1{
+    color:white;
+    margin-bottom: 10px;
+    text-decoration: underline orange;
+}
+
+.image-container{
+    display: flex;
+    align-items: center;
+    gap:30px;
+    margin: 30px;
+}
+
+.why-list{
+    color:white;
+    padding-left: 20px;
+}
+
+.aboutUs-container {
+    padding-left:20px;
+}
+
+ol{
+    color:white;
+    padding-left: 20px;
+}
+
+.pricing-table{
+    width:60%;
+    border-collapse: collapse;
+    margin-top:20px;
+}
+
+.pricing-table th, td{
+    border: 1px solid white;
+    padding: 12px;
+    text-align: left;
+    color:white;
+}
+
+.pricing-table th{
+    background-color: #2563eb;
+    color:white
+}
+
+#response{
+    color:white;
+}
+
+.form textarea{
+    display:block
+}
+
+.contact-info{
+    display: flex;
+    align-items: center;
+    gap:30px;
+    margin: 30px;
+}
